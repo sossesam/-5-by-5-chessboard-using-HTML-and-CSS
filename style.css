@@ -1,0 +1,26 @@
+*{
+    box-sizing: border-box;
+    
+}
+body{
+    height: 100%;
+}
+.chess_board{
+    padding-top: 5%;
+    margin:auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    column-gap: 0px;
+    width: 500px;
+    height: 500px;
+    
+}
+.chess_row{
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    height: 100px;
+    width: 100px;
+    
+}
+div:nth-child(even){
+    background-color: black;
+}
